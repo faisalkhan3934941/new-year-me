@@ -1,0 +1,150 @@
+body{
+    font-family: 'Lato', sans-serif;
+    font-family: "Open Sans", sans-serif;
+}
+
+.header{
+    width: 100vw;
+    background-image: url('../images/banner/banner3.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* margin-left: 150px; */
+    /* padding-bottom: 800px; */
+}
+main section{
+    margin-top: 0px;
+}
+.banner{
+    padding: 200px 300px;
+    text-align: right;
+}
+.color, .lot{
+    color: white;
+}
+.lot{
+    font-size: 60px;
+}
+
+.btn-p{
+    border-radius: 5px;
+    background: white;
+    border: 0;
+    color: skyblue;
+    font-size: 20px;
+    padding: 15px 20px;
+}
+
+.hide{
+    visibility: hidden;
+}
+
+.head{
+    font-size: 50px;
+}
+
+.text{
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+    padding-left: 400px;
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+
+.same{
+    padding-left: 100px;
+    padding-top: 100px;
+}
+.list{
+    padding-left: 20px;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 100px;
+}
+.ht{
+    text-align: center;
+    font-size: 25px;
+    padding-bottom: 20px;
+}
+.skill{
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.bg{
+    background-image: 
+    linear-gradient(to right, rgba(0, 95, 172, 1),rgba(0, 95, 172, 0)), url(../images/watch.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    margin-bottom: 100px;
+}
+.hi{
+    text-align: left;
+    font-size: 40px;
+    padding-top: 50px;
+    padding-left: 70px;
+    color: skyblue;
+}
+.btn{
+    border-radius: 5px;
+    background: white;
+    border: 0;
+    color: skyblue;
+    font-size: 20px;
+    padding: 15px 20px;
+    margin-left: 70px;
+    margin-bottom: 50px;
+}
+
+.btn:hover{
+    background: black;
+    color: white;
+
+}
+.skill{
+    background-color:#ddd;
+    margin-right: 30px;
+    min-width: 200px;
+}
+
+footer{
+    display: flex;
+    gap: 100px;
+    background: black;
+    margin-top: 50px;
+    padding: 50px 300px;
+    color: white;
+}
+
+.ft{
+    width: 50%;
+}
+.shift{
+    display: block;
+    margin-bottom: 25px;
+    padding: 18px 35px;
+    color: #757575;
+    border-radius: 5px;
+    border: 0;
+    width: 100%;
+}
+.bt{
+    border-radius: 5px;
+    background: #005FAC;
+    border: 0;
+    color: white;
+    font-size: 20px;
+    padding: 15px 20px;
+}
+.bt:hover{
+    background: aquamarine;
+    color: white;
+}
